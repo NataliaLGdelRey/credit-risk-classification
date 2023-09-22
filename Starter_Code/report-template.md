@@ -65,6 +65,6 @@ If you do not recommend any of the models, please justify your reasoning.
   - Healthy loans (0): precision = 1.00, recall = 1.00, f1-score = 1.00
   - High-risk loans (1): precision = 0.87, recall = 0.89, f1-score = 0.88
 
-- The accuracy (macro avg) score was 0.94. 
+- The accuracy (macro avg) score was 0.94. The main accuracy was 0.99.
 
 The logistic regression model performed well in predicting healthy loans. Therefore, I recommend using the logistic regression model on the data for predicting healthy loans. However when predicting high-risk loans, although it had a precison of 0.87, it might be a good thing to consider training another model to perform better in predicting high-risk loans. However, the choice of model may depend on the specific problem and business requirements of the user, and it is essential to consider the consequences of making errors in the prediction of both healthy and high-risk loans. This model could be used if it is more important to predict the 0 or the 1. It could be used to check that a loan is healthy and safe and use some other model to chek the high-risk loans.
